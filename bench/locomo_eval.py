@@ -1,6 +1,6 @@
 """LoCoMo 记忆评测（工作区版）：已部署 DSH 记忆系统 vs full-context 基线，同协议对比。
 
-协议（全程同 judge 同提示词同 k，保证横向可比）：
+协议（与 fatfish 版逐字一致，保证横向可比）：
     ingest 全对话 → 分层抽样 QA → 各系统召回 top-k → 本地模型生成（temp=0）
     → 本地模型 judge 打分（1-5，归一化到 0-1）。
 
@@ -232,7 +232,8 @@ class DshMemMemory:
         async with lock:
             if dialog["sample_id"] in self.ingested:
                 return
-            await self._post("/ingest", {"id": dialog["sample_id"], "dialog": dialog["conversation"]})
+            # 大对话的 LLM 事实抽取可达 30-60 分钟，必须超过桥接侧最慢路径，否则 ReadTimeout 会杀死整个评测。
+            await self._post("/ingest", {"id": dialog["sample_id"], "dialog": dialog["conversation"]}, timeout=14400)
             self.ingested.add(dialog["sample_id"])
 
     async def recall(self, dialog: dict, question: str) -> list[str]:

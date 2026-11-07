@@ -115,7 +115,12 @@ async def chat(req: ChatRequest):
             return text, len(new_tokens), elapsed
 
         try:
-            text, completion_tokens, elapsed = await loop.run_in_executor(None, generate)
+            # 硬超时：防止单个异常生成永久占用 STATE["lock"] 堵死整个服务（卡死请求返回 503，锁随 async with 释放）。
+            text, completion_tokens, elapsed = await asyncio.wait_for(
+                loop.run_in_executor(None, generate), timeout=900
+            )
+        except asyncio.TimeoutError:
+            raise HTTPException(status_code=503, detail="generation timeout (900s); server kept alive")
         except Exception as exc:  # noqa: BLE001
             raise HTTPException(status_code=500, detail=str(exc)) from exc
 

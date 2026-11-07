@@ -81,9 +81,16 @@ async def chat(req: ChatRequest):
         raise HTTPException(status_code=503, detail="model not ready")
     model, tokenizer = STATE["model"]
     messages = [{"role": m.role, "content": m.content} for m in req.messages]
-    prompt = tokenizer.apply_chat_template(
-        messages, tokenize=False, add_generation_prompt=True,
-    )
+    try:
+        # Qwen3 混合思考模型默认输出 <think> 块耗尽 token 预算，评测小模型一律关闭思考模式；
+        # 无此模板参数的模型（如 Instruct-2507）自动走 except 分支，行为不变。
+        prompt = tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True, enable_thinking=False,
+        )
+    except Exception:
+        prompt = tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True,
+        )
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
     prompt_tokens = int(inputs["input_ids"].shape[1])
     if prompt_tokens > 20000:
@@ -107,6 +114,11 @@ async def chat(req: ChatRequest):
                 )
             new_tokens = out[0][prompt_tokens:]
             text = tokenizer.decode(new_tokens, skip_special_tokens=True)
+            # 双保险：剥离残余 <think> 块（含未闭合前缀），保证下游拿到纯答案。
+            if "</think>" in text:
+                text = text.split("</think>", 1)[1].strip()
+            elif text.lstrip().startswith("<think>"):
+                text = ""
             for stop in req.stop or []:
                 if stop and stop in text:
                     text = text.split(stop)[0]

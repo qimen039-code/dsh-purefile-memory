@@ -1,6 +1,12 @@
-# DSH Memory System · 分层记忆系统
+# PureFile Memory · 纯文件分层记忆系统
 
-![License](https://img.shields.io/badge/license-MIT-blue) ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![Node](https://img.shields.io/badge/node-18%2B-green) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20POSIX-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-blue) ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![Node](https://img.shields.io/badge/node-18%2B-green) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20POSIX-lightgrey) ![Status](https://img.shields.io/badge/status-work_in_progress-orange)
+
+> ## 🚧 WORK IN PROGRESS — 本项目仍在快速迭代中，目前**不是成品**
+>
+> 目录结构、CLI 接口与配置格式都可能频繁变更；文中评测数字为**阶段性结果**而非最终结论
+> （0.896 为 54 题 dev 子集、全量 294 题单模型复跑进行中、跨模型复现性验证尚未完成）。
+> 请勿据此做生产部署决策。
 
 **纯文件的 LLM agent 长期记忆系统**：四层存储 + 事实层 + 语义重排 + 关联图 + 活跃视图过滤。
 无向量库、无图数据库、无外部服务依赖；评测全链路（抽取/重排/生成/judge）可完全本地复现。

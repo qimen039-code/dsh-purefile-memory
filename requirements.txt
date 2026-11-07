@@ -1,0 +1,2 @@
+# 评测管线（bench/locomo_eval.py 及桥接）所需
+httpx>=0.27

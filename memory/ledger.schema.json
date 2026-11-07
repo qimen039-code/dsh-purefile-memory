@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dsh.local/schemas/memory-ledger-v1.json",
+  "title": "DSH Memory Ledger v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "updated_at", "entries"],
+  "properties": {
+    "version": { "const": 1 },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "ref"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["session", "file", "command", "url", "user"]
+        },
+        "ref": { "type": "string", "minLength": 1 },
+        "note": { "type": "string" }
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parent_ids": { "type": "array", "items": { "type": "string" } },
+        "child_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "status",
+        "scope",
+        "workspace",
+        "owner",
+        "title",
+        "statement",
+        "applies_when",
+        "does_not_apply_when",
+        "evidence",
+        "disconfirmation",
+        "confidence",
+        "created_at",
+        "last_verified_at",
+        "expires_at",
+        "supersedes",
+        "superseded_by",
+        "closure_reason",
+        "policy_effect",
+        "priority",
+        "tags",
+        "endogenous"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^mem-[0-9]{8}-[a-z0-9]+$" },
+        "kind": {
+          "type": "string",
+          "enum": ["preference", "fact", "convention", "protocol", "claim", "thread", "handoff"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["candidate", "active", "contested", "superseded", "expired", "archived"]
+        },
+        "scope": { "type": "string", "enum": ["global", "workspace"] },
+        "workspace": { "type": "string" },
+        "owner": { "type": "string", "enum": ["user", "agent"] },
+        "title": { "type": "string", "minLength": 1 },
+        "statement": { "type": "string", "minLength": 1 },
+        "applies_when": { "type": "array", "items": { "type": "string" } },
+        "does_not_apply_when": { "type": "array", "items": { "type": "string" } },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+        "disconfirmation": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "created_at": { "type": "string", "format": "date-time" },
+        "last_verified_at": { "type": "string", "format": "date-time" },
+        "expires_at": { "type": ["string", "null"], "format": "date-time" },
+        "supersedes": { "type": "array", "items": { "type": "string" } },
+        "superseded_by": { "type": ["string", "null"] },
+        "closure_reason": { "type": ["string", "null"] },
+        "policy_effect": {
+          "type": "string",
+          "enum": ["none", "check", "ask", "handoff"]
+        },
+        "priority": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "endogenous": { "type": "boolean" },
+        "open_question": { "type": "string" },
+        "thread_status": {
+          "type": "string",
+          "enum": ["unresolved", "resolved", "dissolved", "abandoned", "superseded", "merged"]
+        },
+        "lineage": { "$ref": "#/$defs/lineage" },
+        "task_id": { "type": "string" },
+        "goal": { "type": "string" },
+        "stage": { "type": "string" },
+        "next_action": { "type": "string" },
+        "unknowns": { "type": "array", "items": { "type": "string" } },
+        "context_tags": { "type": "array", "items": { "type": "string" } },
+        "evidence_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

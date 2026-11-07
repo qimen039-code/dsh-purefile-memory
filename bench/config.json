@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "root": "./memstore",
+  "defaultWorkspace": "bench",
+  "sessionsRoot": "",
+  "projectionRoot": "",
+  "zstd": "auto",
+  "semantic": {
+    "enabled": true,
+    "baseUrl": "http://127.0.0.1:8899/v1",
+    "apiKey": "local",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "temperature": 0,
+    "timeoutMs": 600000,
+    "rerankCandidates": 32,
+    "rerankMinScore": 2,
+    "ingestConcurrency": 2,
+    "maxFactsPerSession": 30
+  }
+}

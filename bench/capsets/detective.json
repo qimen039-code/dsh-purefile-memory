@@ -1,0 +1,75 @@
+[
+ {
+  "sample_id": "cap-detective-1",
+  "conversation": {
+   "session_1_date_time": "10:00 am on 2 May, 2023",
+   "session_1": "[{\"speaker\": \"Riley\", \"text\": \"Morning! I left the brass key on the kitchen shelf yesterday.\"}, {\"speaker\": \"Morgan\", \"text\": \"Got it. I moved the brass key to the lockbox in the garage at noon.\"}, {\"speaker\": \"Riley\", \"text\": \"Perfect. Did you see the red ledger anywhere? I need it for the audit.\"}, {\"speaker\": \"Morgan\", \"text\": \"Quinn borrowed the red ledger on Monday for the archive room.\"}]",
+   "session_2_date_time": "4:30 pm on 4 May, 2023",
+   "session_2": "[{\"speaker\": \"Quinn\", \"text\": \"I returned the red ledger to Morgan on Wednesday evening.\"}, {\"speaker\": \"Morgan\", \"text\": \"Yes, and I put it back in the top drawer of the study desk.\"}, {\"speaker\": \"Riley\", \"text\": \"Thanks! Also, who took the magnifier from the lab?\"}, {\"speaker\": \"Quinn\", \"text\": \"That was Sasha. Sasha took the magnifier to the field site on Tuesday.\"}]",
+   "session_3_date_time": "9:15 am on 6 May, 2023",
+   "session_3": "[{\"speaker\": \"Sasha\", \"text\": \"The magnifier is back in the lab cabinet now. I brought it Friday.\"}, {\"speaker\": \"Riley\", \"text\": \"Great. So everything is where it should be?\"}, {\"speaker\": \"Morgan\", \"text\": \"Except the brass key is still in the garage lockbox. I haven't moved it since.\"}, {\"speaker\": \"Quinn\", \"text\": \"I can move it to the office drawer tomorrow if you want.\"}]"
+  },
+  "qa": [
+   {
+    "question": "Where is the brass key now?",
+    "answer": "in the garage lockbox",
+    "category": 3
+   },
+   {
+    "question": "Who last moved the brass key, and where did they put it?",
+    "answer": "Morgan, to the garage lockbox",
+    "category": 3
+   },
+   {
+    "question": "Who borrowed the red ledger first?",
+    "answer": "Quinn",
+    "category": 3
+   },
+   {
+    "question": "Where is the red ledger now?",
+    "answer": "top drawer of the study desk",
+    "category": 3
+   },
+   {
+    "question": "Who took the magnifier to the field site?",
+    "answer": "Sasha",
+    "category": 3
+   },
+   {
+    "question": "Where is the magnifier now?",
+    "answer": "in the lab cabinet",
+    "category": 3
+   },
+   {
+    "question": "Who will move the brass key to the office drawer?",
+    "answer": "Quinn",
+    "category": 1
+   },
+   {
+    "question": "On what date did Quinn borrow the red ledger?",
+    "answer": "Monday, 1 May 2023",
+    "category": 2
+   },
+   {
+    "question": "What did Riley leave on the kitchen shelf?",
+    "answer": "the brass key",
+    "category": 1
+   },
+   {
+    "question": "When did Sasha bring the magnifier back to the lab cabinet?",
+    "answer": "Friday, 5 May 2023",
+    "category": 2
+   },
+   {
+    "question": "What did Morgan do with the brass key at noon on 2 May?",
+    "answer": "moved it to the garage lockbox",
+    "category": 2
+   },
+   {
+    "question": "Where did Morgan put the red ledger after Quinn returned it?",
+    "answer": "top drawer of the study desk",
+    "category": 3
+   }
+  ]
+ }
+]

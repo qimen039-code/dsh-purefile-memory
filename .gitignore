@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# 记忆系统运行时数据（个人内容绝不入库）
+memory/system/config.json
+memory/records/
+memory/sessions/
+memory/turns/
+memory/inbox/
+memory/cache/
+memory/index/
+memory/views/
+memory/ledger.json
+
+# 评测运行时缓存（可由 bench/locomo10.json 重建）
+bench/memstore/
+bench/index/
+bench/views/
+
+# 日志与本地产物
+*.log
+bridge_smoke.log
+monitor_status.log
+session_*.md
+
+# 其他
+.mimosa/

@@ -1,0 +1,75 @@
+[
+ {
+  "sample_id": "cap-social-1",
+  "conversation": {
+   "session_1_date_time": "11:30 am on 8 January, 2023",
+   "session_1": "[{\"speaker\": \"Elias\", \"text\": \"My sister Freya just moved to Lisbon for her new job at Atlantica Labs.\"}, {\"speaker\": \"Gunnar\", \"text\": \"Nice! My cousin Hilda works there too, in the robotics team.\"}, {\"speaker\": \"Elias\", \"text\": \"Small world. Freya is on the data platform team.\"}]",
+   "session_2_date_time": "2:45 pm on 15 February, 2023",
+   "session_2": "[{\"speaker\": \"Gunnar\", \"text\": \"Hilda says her teammate Jonas is Freya's manager.\"}, {\"speaker\": \"Elias\", \"text\": \"That matches what Freya told me. Jonas reports to Director Kwan.\"}, {\"speaker\": \"Gunnar\", \"text\": \"And Kwan?\"}, {\"speaker\": \"Elias\", \"text\": \"Kwan founded Atlantica Labs with Ilsa back in 2018.\"}]",
+   "session_3_date_time": "5:10 pm on 3 March, 2023",
+   "session_3": "[{\"speaker\": \"Elias\", \"text\": \"Freya's fianc\\u00e9 Torben is transferring to the Lisbon office in April.\"}, {\"speaker\": \"Gunnar\", \"text\": \"So the whole family gathers there. Is Torben an engineer too?\"}, {\"speaker\": \"Elias\", \"text\": \"Yes, he and Hilda studied at the same university.\"}, {\"speaker\": \"Gunnar\", \"text\": \"I will ask Hilda to show them around.\"}]"
+  },
+  "qa": [
+   {
+    "question": "Who is Elias's sister?",
+    "answer": "Freya",
+    "category": 1
+   },
+   {
+    "question": "Where does Freya work?",
+    "answer": "Atlantica Labs in Lisbon",
+    "category": 1
+   },
+   {
+    "question": "Who is Freya's manager?",
+    "answer": "Jonas",
+    "category": 3
+   },
+   {
+    "question": "Who does Jonas report to?",
+    "answer": "Director Kwan",
+    "category": 3
+   },
+   {
+    "question": "Who founded Atlantica Labs, and when?",
+    "answer": "Kwan and Ilsa in 2018",
+    "category": 3
+   },
+   {
+    "question": "Who is Freya's fiancé?",
+    "answer": "Torben",
+    "category": 1
+   },
+   {
+    "question": "When is Torben transferring to the Lisbon office?",
+    "answer": "April 2023",
+    "category": 2
+   },
+   {
+    "question": "Whose cousin is Hilda?",
+    "answer": "Gunnar's",
+    "category": 1
+   },
+   {
+    "question": "What is the relationship between Torben and Hilda?",
+    "answer": "they studied at the same university",
+    "category": 3
+   },
+   {
+    "question": "Which team does Hilda work on?",
+    "answer": "the robotics team",
+    "category": 1
+   },
+   {
+    "question": "How are Elias and Freya related?",
+    "answer": "brother and sister",
+    "category": 3
+   },
+   {
+    "question": "When did the first conversation happen?",
+    "answer": "8 January 2023",
+    "category": 2
+   }
+  ]
+ }
+]

@@ -1,0 +1,75 @@
+[
+ {
+  "sample_id": "cap-causal-1",
+  "conversation": {
+   "session_1_date_time": "6:00 pm on 12 March, 2023",
+   "session_1": "[{\"speaker\": \"Talia\", \"text\": \"I started building the greenhouse in February 2023.\"}, {\"speaker\": \"Dario\", \"text\": \"How is it going?\"}, {\"speaker\": \"Talia\", \"text\": \"Finished the frame in March 2023, but the storm broke two panels last week.\"}, {\"speaker\": \"Dario\", \"text\": \"Sorry to hear. What next?\"}]",
+   "session_2_date_time": "3:20 pm on 9 June, 2023",
+   "session_2": "[{\"speaker\": \"Talia\", \"text\": \"I replaced the broken panels in April 2023 and planted tomatoes in May 2023.\"}, {\"speaker\": \"Dario\", \"text\": \"And?\"}, {\"speaker\": \"Talia\", \"text\": \"The tomatoes died in a heatwave in late May 2023. I switched to peppers.\"}, {\"speaker\": \"Dario\", \"text\": \"Smart. Peppers handle heat better.\"}]",
+   "session_3_date_time": "1:00 pm on 21 September, 2023",
+   "session_3": "[{\"speaker\": \"Talia\", \"text\": \"The peppers are thriving. First harvest was August 2023.\"}, {\"speaker\": \"Dario\", \"text\": \"Any plans for winter?\"}, {\"speaker\": \"Talia\", \"text\": \"I will insulate the greenhouse in October 2023 and try winter lettuce.\"}, {\"speaker\": \"Dario\", \"text\": \"After the heatwave disaster, you have earned a win.\"}]"
+  },
+  "qa": [
+   {
+    "question": "When did Talia start building the greenhouse?",
+    "answer": "February 2023",
+    "category": 2
+   },
+   {
+    "question": "When did Talia finish the greenhouse frame?",
+    "answer": "March 2023",
+    "category": 2
+   },
+   {
+    "question": "What happened to the tomatoes, and when?",
+    "answer": "they died in a heatwave in late May 2023",
+    "category": 2
+   },
+   {
+    "question": "What did Talia plant after the tomatoes died?",
+    "answer": "peppers",
+    "category": 3
+   },
+   {
+    "question": "When was the first pepper harvest?",
+    "answer": "August 2023",
+    "category": 2
+   },
+   {
+    "question": "How many months passed between finishing the frame and the first harvest?",
+    "answer": "five months (March 2023 to August 2023)",
+    "category": 2
+   },
+   {
+    "question": "What will Talia do in October 2023?",
+    "answer": "insulate the greenhouse and try winter lettuce",
+    "category": 2
+   },
+   {
+    "question": "What broke two panels of the greenhouse?",
+    "answer": "a storm in March 2023",
+    "category": 2
+   },
+   {
+    "question": "When did Talia replace the broken panels?",
+    "answer": "April 2023",
+    "category": 2
+   },
+   {
+    "question": "What happened before the tomatoes were planted?",
+    "answer": "Talia replaced the broken panels in April 2023",
+    "category": 3
+   },
+   {
+    "question": "Which crop does Dario say handles heat better?",
+    "answer": "peppers",
+    "category": 1
+   },
+   {
+    "question": "What sequence of crops did Talia grow?",
+    "answer": "tomatoes first, then peppers",
+    "category": 3
+   }
+  ]
+ }
+]

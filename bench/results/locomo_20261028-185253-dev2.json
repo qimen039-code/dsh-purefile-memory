@@ -1,0 +1,866 @@
+[
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What did Caroline research?",
+  "answer": "Caroline researched adoption agencies to adopt children."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.2,
+  "question": "What is Caroline's identity?",
+  "answer": "不知道。记忆片段只提到她通过绘画探索自我身份，但没有具体说明她的身份是什么。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.2,
+  "question": "What is Caroline's relationship status?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.6,
+  "question": "Where did Caroline move from 4 years ago?",
+  "answer": "不知道（片段只提到她 4 年前从祖国搬来，未说明具体是哪个国家）。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What career path has Caroline decided to persue?",
+  "answer": "Caroline is pursuing a career in counseling and mental health, focusing on working with trans people."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.6,
+  "question": "What activities does Melanie partake in?",
+  "answer": "Melanie paints, runs (including a charity race for mental health), reads, plays violin, and signed up for a pottery clas"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Caroline go to the LGBTQ support group?",
+  "answer": "Caroline went to the LGBTQ support group on 2023-05-07."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.6,
+  "question": "When did Melanie paint a sunrise?",
+  "answer": "不知道。记忆片段只提到 Melanie 去年画了一幅湖上日出画，但没有给出具体日期。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.2,
+  "question": "When did Melanie run a charity race?",
+  "answer": "Melanie ran a charity race last Saturday (as of 2023-05-20)."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.8,
+  "question": "When is Melanie planning on going camping?",
+  "answer": "Melanie was thinking about taking her kids camping next month, as of 2023-06-01."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.8,
+  "question": "When did Caroline give a speech at a school?",
+  "answer": "Caroline gave a school event talk on 2023-06-01."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.2,
+  "question": "When did Caroline meet up with her friends, family, and ment",
+  "answer": "2023年10月22日，Caroline 得到了朋友、家人和她敬仰的人（mentors）的宝贵帮助。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 0.8,
+  "question": "What fields would Caroline be likely to pursue in her educat",
+  "answer": "Caroline would likely pursue counseling and mental health."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline still want to pursue counseling as a career i",
+  "answer": "不知道。记忆片段只说明 Caroline 因个人经历和获得的支持而想从事心理咨询，但没有提及如果她成长过程中未获得支持是否仍会选择这一职业。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+  "answer": "是的，很可能。Caroline 正在为将来有孩子而建立儿童书库，其中包含经典作品，而 Dr. Seuss 的书属于经典儿童读物。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline pursue writing as a career option?",
+  "answer": "不知道。记忆片段只提到Caroline计划从事心理咨询和心理健康领域的职业，没有提到写作。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 0.6,
+  "question": "Would Melanie be considered a member of the LGBTQ community?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Melanie be more interested in going to a national park",
+  "answer": "Melanie would likely be more interested in a national park, since she enjoys camping and family time outdoors."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What did the charity race raise awareness for?",
+  "answer": "Mental health."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What did Melanie realize after the charity race?",
+  "answer": "不知道。记忆片段中没有提到 Melanie 在慈善赛跑后有什么领悟。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "How does Melanie prioritize self-care?",
+  "answer": "Melanie prioritizes self-care by carving out daily me-time for running, reading, or playing violin."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 0.2,
+  "question": "What are Caroline's plans for the summer?",
+  "answer": "Caroline proposed planning a special summer trip for just Caroline and Melanie to catch up and explore nature."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What type of individuals does the adoption agency Caroline i",
+  "answer": "LGBTQ+ people."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "Why did Caroline choose the adoption agency?",
+  "answer": "Caroline chose the adoption agency because it helps LGBTQ+ people with adoption and offers inclusivity and support."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What did Caroline realize after her charity race?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 1.0,
+  "question": "What are Melanie's plans for the summer with respect to adop",
+  "answer": "不知道。记忆片段中没有提到 Melanie 在夏季关于收养的具体计划。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What type of individuals does the adoption agency Melanie is",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "Why did Melanie choose the adoption agency?",
+  "answer": "不知道。记忆片段里没有提到 Melanie 选择该收养机构的原因。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 1.0,
+  "question": "What is Melanie excited about in her adoption process?",
+  "answer": "不知道。记忆片段中没有提到 Melanie 在收养过程中对什么感到兴奋。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What does Melanie's necklace symbolize?",
+  "answer": "不知道。记忆片段只提到 Caroline 的项链象征爱、信仰和力量，没有关于 Melanie 项链的信息。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.4,
+  "question": "What do Jon and Gina both have in common?",
+  "answer": "他们都支持彼此追逐梦想。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.8,
+  "question": "What Jon thinks the ideal dance studio should look like?",
+  "answer": "Jon 认为理想舞蹈工作室的地板应使用 Marley 地板，因为防滑、耐用且易清洁；他还看重充足的自然光，并会先确认空间大小和地板质量再决定。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.2,
+  "question": "Which city have both Jean and John visited?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.8,
+  "question": "Why did Gina decide to start her own clothing store?",
+  "answer": "Gina started her online clothing store to take control of her own destiny after losing her job, and to combine her passi"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.6,
+  "question": "Do Jon and Gina start businesses out of what they love?",
+  "answer": "根据记忆片段，Gina 建议 Jon 专注于他创业的初衷，因为他热爱这件事，所以可以推断 Jon 是出于热爱创业；片段中没有明确提到 Gina 是否出于热爱创业，因此不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.4,
+  "question": "How did Gina promote her clothes store?",
+  "answer": "Gina launched an ad campaign and started new offers and promotions to attract customers."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.4,
+  "question": "When Jon has lost his job as a banker?",
+  "answer": "2023年1月18日（根据2023-01-19的片段“yesterday”）。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When Gina has lost her job at Door Dash?",
+  "answer": "2023年1月。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When is Jon's group performing at a festival?",
+  "answer": "Jon's group performed at a festival around 2023-02-08, having planned it for the following month as of 2023-02-01."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Gina launch an ad campaign for her store?",
+  "answer": "Gina于2023-01-29为她的服装店发起了广告活动。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.4,
+  "question": "When was Jon in Paris?",
+  "answer": "Jon 在 2023-01-27 去了巴黎（会话前一天）。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Gina team up with a local artist for some cool desi",
+  "answer": "2023-02-08"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "How do Jon and Gina both like to destress?",
+  "answer": "They like to dance to destress."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 0.8,
+  "question": "Why did Jon decide to start his dance studio?",
+  "answer": "Jon started his dance studio because he is passionate about dancing and wants to share it with others."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What is Gina's favorite style of dance?",
+  "answer": "Gina's favorite dance style is contemporary."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What is Jon's favorite style of dance?",
+  "answer": "Contemporary."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What was Gina's favorite dancing memory?",
+  "answer": "Gina's favorite dancing memory is winning first place at regionals at age fifteen with a contemporary piece called 'Find"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What kind of dance piece did Gina's team perform to win firs",
+  "answer": "Gina won first place at regionals at age fifteen with a contemporary piece called 'Finding Freedom'."
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 1.0,
+  "question": "What temporary job did Jon take to cover expenses?",
+  "answer": "不知道。记忆片段只提到 Jon 找了份临时工作来补贴开销，但没有说明具体是什么临时工作。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What is Jon's favorite style of painting?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What was Jon's favorite dancing memory?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What kind of dance piece did Jon's team perform to win first",
+  "answer": "不知道。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 1.0,
+  "question": "What is Gina's attitude towards participating in the dance f",
+  "answer": "不知道。记忆片段只提到Gina计划参加Jon舞蹈工作室的开业活动，没有提到她对参加舞蹈节的态度。"
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What kind of flooring is Gina looking for in her dance studi",
+  "answer": "不知道。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What did Caroline research?",
+  "answer": "Caroline researched adoption agencies."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What is Caroline's identity?",
+  "answer": "Caroline is a transgender woman."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What is Caroline's relationship status?",
+  "answer": "Caroline is single — she mentions it will be tough as a single parent."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "Where did Caroline move from 4 years ago?",
+  "answer": "Sweden"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What career path has Caroline decided to persue?",
+  "answer": "Caroline decided to pursue counseling and mental health work, especially helping trans people."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.6,
+  "question": "What activities does Melanie partake in?",
+  "answer": "Melanie partakes in pottery, painting, running, playing the clarinet, camping/hiking with her family, and volunteering a"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.2,
+  "question": "When did Caroline go to the LGBTQ support group?",
+  "answer": "昨天。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.4,
+  "question": "When did Melanie paint a sunrise?",
+  "answer": "Melanie painted the lake sunrise last year."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.2,
+  "question": "When did Melanie run a charity race?",
+  "answer": "Last Saturday."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.2,
+  "question": "When is Melanie planning on going camping?",
+  "answer": "不知道"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.4,
+  "question": "When did Caroline give a speech at a school?",
+  "answer": "Caroline gave the speech at a school event last week (as mentioned when she told Melanie about talking about her transge"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.8,
+  "question": "When did Caroline meet up with her friends, family, and ment",
+  "answer": "根据对话记录，Caroline 提到她和朋友、家人、导师上周见过面（“Here's a pic from when we met up last week!”），但具体日期记录里没有。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 0.6,
+  "question": "What fields would Caroline be likely to pursue in her educat",
+  "answer": "Counseling and mental health."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline still want to pursue counseling as a career i",
+  "answer": "不知道"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+  "answer": "是的，Caroline 说她为孩子准备了包含经典作品的儿童书库，Dr. Seuss 的书很可能在其中。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline pursue writing as a career option?",
+  "answer": "不知道"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 0.6,
+  "question": "Would Melanie be considered a member of the LGBTQ community?",
+  "answer": "不知道"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Melanie be more interested in going to a national park",
+  "answer": "Melanie would be more interested in going to a national park, since she loves camping, hiking, and nature with her famil"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What did the charity race raise awareness for?",
+  "answer": "Mental health."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What did Melanie realize after the charity race?",
+  "answer": "Melanie realized that self-care is really important and that when she looks after herself, she's better able to look aft"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "How does Melanie prioritize self-care?",
+  "answer": "Melanie prioritizes self-care by carving out daily me-time—running, reading, or playing her violin—which refreshes her a"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What are Caroline's plans for the summer?",
+  "answer": "Caroline plans to research adoption agencies over the summer."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What type of individuals does the adoption agency Caroline i",
+  "answer": "The adoption agency she is considering helps LGBTQ+ folks with adoption."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "Why did Caroline choose the adoption agency?",
+  "answer": "Caroline chose the agency because it helps LGBTQ+ folks with adoption, and their inclusivity and support really spoke to"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 1.0,
+  "question": "What did Caroline realize after her charity race?",
+  "answer": "不知道。记录中参加慈善赛跑的是 Melanie，不是 Caroline。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What are Melanie's plans for the summer with respect to adop",
+  "answer": "不知道。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.8,
+  "question": "What type of individuals does the adoption agency Melanie is",
+  "answer": "不知道。对话中Caroline提到她选择的收养机构帮助LGBTQ+人士，但Melanie并未提到她在考虑收养机构。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "Why did Melanie choose the adoption agency?",
+  "answer": "不知道。对话中 Caroline 才是选择收养机构的人，她选择该机构是因为它帮助 LGBTQ+ 人士收养；Melanie 并未选择收养机构。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What is Melanie excited about in her adoption process?",
+  "answer": "不知道。对话中Melanie并未进行收养，是Caroline在推进收养流程。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What does Melanie's necklace symbolize?",
+  "answer": "不知道。对话里提到项链的是Caroline，她说那是祖母送的，象征爱、信念和力量；没有提到Melanie有项链。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.8,
+  "question": "What do Jon and Gina both have in common?",
+  "answer": "They both lost their jobs and started their own businesses, and they both love dance."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 1.0,
+  "question": "What Jon thinks the ideal dance studio should look like?",
+  "answer": "Jon thinks the ideal dance studio should be by the water, with great natural light, an easy-to-get-to downtown location,"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.2,
+  "question": "Which city have both Jean and John visited?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 1.0,
+  "question": "Why did Gina decide to start her own clothing store?",
+  "answer": "Gina said she wanted to take control of her own destiny after losing her job, and she's passionate about fashion trends "
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 1.0,
+  "question": "Do Jon and Gina start businesses out of what they love?",
+  "answer": "Yes. Jon starts a dance studio out of his love for dancing, and Gina starts an online clothing store out of her passion "
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.4,
+  "question": "How did Gina promote her clothes store?",
+  "answer": "Gina promoted her store through an ad campaign, new offers and promotions, working with fashion bloggers and influencers"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.2,
+  "question": "When Jon has lost his job as a banker?",
+  "answer": "昨天。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.2,
+  "question": "When Gina has lost her job at Door Dash?",
+  "answer": "This month."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.2,
+  "question": "When is Jon's group performing at a festival?",
+  "answer": "Next month."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.2,
+  "question": "When did Gina launch an ad campaign for her store?",
+  "answer": "Gina launched an ad campaign for her clothing store when she and Jon reconnected after a long time apart, saying things "
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.6,
+  "question": "When was Jon in Paris?",
+  "answer": "根据对话记录，Jon 说“I've been to Paris yesterday”，但对话中没有给出具体日期，所以无法确定具体时间。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.2,
+  "question": "When did Gina team up with a local artist for some cool desi",
+  "answer": "Gina teamed up with a local artist for cool designs when she was working hard on her online store, as mentioned in the c"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "How do Jon and Gina both like to destress?",
+  "answer": "They both like to destress by dancing."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 0.8,
+  "question": "Why did Jon decide to start his dance studio?",
+  "answer": "Jon decided to start his dance studio because he's passionate about dancing and wants to share the joy dancing brings hi"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What is Gina's favorite style of dance?",
+  "answer": "Gina's favorite style of dance is contemporary dance."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What is Jon's favorite style of dance?",
+  "answer": "Contemporary dance."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What was Gina's favorite dancing memory?",
+  "answer": "Gina's favorite dancing memory was when her team won first place at a regionals at age fifteen, performing a contemporar"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What kind of dance piece did Gina's team perform to win firs",
+  "answer": "Gina's team performed a contemporary piece called \"Finding Freedom.\""
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 1.0,
+  "question": "What temporary job did Jon take to cover expenses?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What is Jon's favorite style of painting?",
+  "answer": "不知道。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.8,
+  "question": "What was Jon's favorite dancing memory?",
+  "answer": "Jon said his favorite dancing memory was when his dance crew took home first place in a local competition last year."
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 1.0,
+  "question": "What kind of dance piece did Jon's team perform to win first",
+  "answer": "不知道。记录中赢得第一名的当代舞作品《Finding Freedom》是 Gina 十五岁时团队表演的，不是 Jon 的团队。"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 1.0,
+  "question": "What is Gina's attitude towards participating in the dance f",
+  "answer": "Gina is enthusiastic and supportive—she says she'd love to join and show her support, and confirms she's definitely in f"
+ },
+ {
+  "system": "full",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What kind of flooring is Gina looking for in her dance studi",
+  "answer": "不知道。对话中讨论 Marley 地板的是 Jon 的舞蹈工作室，Gina 并没有提到自己在找什么地板。"
+ }
+]

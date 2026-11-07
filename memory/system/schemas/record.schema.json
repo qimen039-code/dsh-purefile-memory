@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dsh.local/memory/record.schema.json",
+  "title": "DSH memory record L0 meta",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "kind",
+    "title",
+    "gist",
+    "workspace",
+    "scope",
+    "owner",
+    "standing",
+    "temperature",
+    "created_at",
+    "updated_at",
+    "last_touched_at",
+    "paths"
+  ],
+  "properties": {
+    "schema": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "pattern": "^rec-[0-9]{8}-[0-9]{6}-[0-9a-f]{4}$" },
+    "kind": { "enum": ["episode", "thread", "project", "reference", "decision"] },
+    "title": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "gist": { "type": "string", "minLength": 1, "maxLength": 260 },
+    "key_points": { "type": "array", "maxItems": 8, "items": { "type": "string", "maxLength": 160 } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "entities": { "type": "array", "items": { "type": "string" } },
+    "workspace": { "type": "string" },
+    "project": { "type": "string" },
+    "scope": { "enum": ["workspace", "global"] },
+    "owner": { "enum": ["user", "agent", "tool", "mixed"] },
+    "standing": { "enum": ["current", "superseded", "contested", "retracted", "expired"] },
+    "temperature": { "enum": ["hot", "warm", "sealed", "frozen"] },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "disconfirmation": { "type": "string" },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" },
+    "last_touched_at": { "type": "string" },
+    "valid_from": { "type": "string" },
+    "valid_to": { "type": ["string", "null"] },
+    "review_state": { "enum": ["draft", "reviewed", "needs_review"] },
+    "review_at": { "type": ["string", "null"] },
+    "open_loops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "question": { "type": "string" },
+          "status": { "enum": ["unresolved", "resolved", "dissolved", "abandoned"] },
+          "next_action": { "type": "string" },
+          "owner": { "type": "string" }
+        }
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["statement"],
+        "properties": {
+          "id": { "type": "string" },
+          "statement": { "type": "string" },
+          "status": { "enum": ["in-force", "reversed", "proposed", "rejected"] },
+          "reason": { "type": "string" },
+          "alternatives": { "type": "array", "items": { "type": "string" } },
+          "evidence": { "type": "array", "items": { "type": "string" } },
+          "confidence": { "type": "number" }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "target"],
+        "properties": {
+          "type": {
+            "enum": [
+              "supersedes",
+              "superseded_by",
+              "contradicts",
+              "depends_on",
+              "depended_on_by",
+              "derived_from",
+              "derived_to",
+              "thread_of",
+              "has_thread",
+              "episode_of",
+              "has_episode",
+              "artifact_of",
+              "has_artifact",
+              "related_to",
+              "answers",
+              "reopens"
+            ]
+          },
+          "target": { "type": "string" },
+          "why": { "type": "string" }
+        }
+      }
+    },
+    "session_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "workspace": { "type": "string" },
+          "turns": { "type": "array", "items": { "type": "integer" } },
+          "captured_at": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "artifact_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ref"],
+        "properties": {
+          "ref": { "type": "string" },
+          "kind": { "type": "string" },
+          "summary": { "type": "string" },
+          "sha256": { "type": "string" },
+          "copied_to": { "type": "string" }
+        }
+      }
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["at", "kind", "text"],
+        "properties": {
+          "at": { "type": "string" },
+          "kind": { "enum": ["correction", "counter_evidence", "annotation", "user_veto"] },
+          "text": { "type": "string" },
+          "evidence": { "type": "string" },
+          "by": { "type": "string" }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_by": { "enum": ["user", "agent", "indexer", "tool"] },
+        "evidence_ids": { "type": "array", "items": { "type": "string" } },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "retention": {
+      "type": "object",
+      "properties": {
+        "class": { "enum": ["durable", "project", "transient"] },
+        "review_at": { "type": ["string", "null"] },
+        "expires_at": { "type": ["string", "null"] }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "properties": {
+        "sensitive": { "type": "boolean" },
+        "injectable": { "type": "boolean" },
+        "redact": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "paths": {
+      "type": "object",
+      "required": ["l1", "l2", "l3", "audit", "readme"],
+      "properties": {
+        "l1": { "type": "string" },
+        "l2": { "type": "string" },
+        "l3": { "type": "string" },
+        "audit": { "type": "string" },
+        "readme": { "type": "string" }
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "properties": {
+        "meta_version": { "type": "integer" },
+        "digest_sha256": { "type": ["string", "null"] },
+        "index_sha256": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

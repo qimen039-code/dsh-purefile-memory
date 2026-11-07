@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "root": "..",
+  "sessionsRoot": "",
+  "projectionRoot": "",
+  "defaultWorkspace": "SET_BY_INSTALLER",
+  "zstd": "auto",
+  "budgets": {
+    "gistMax": 260,
+    "titleMax": 120,
+    "keyPointMax": 160,
+    "l1MaxChars": 6000,
+    "briefMaxChars": 1200,
+    "recallDefault": 5,
+    "recallMax": 20,
+    "sessionShowMaxChars": 24000
+  },
+  "lifecycle": {
+    "hotDays": 3,
+    "warmDays": 14,
+    "sealDays": 30,
+    "reviewDays": 90,
+    "sealMinDigestChars": 300,
+    "maxHotRecords": 40
+  },
+  "recall": {
+    "includeSealedByDefault": true,
+    "sealedPenalty": 1.5,
+    "maxPerProject": 2,
+    "deepTopN": 20,
+    "includeLedger": false
+  }
+}

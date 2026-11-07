@@ -1,0 +1,8 @@
+# 本地模型服务（bench/local_server.py / loco_server.py）所需 —— GPU 环境安装
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+transformers>=4.44
+torch>=2.4
+bitsandbytes>=0.43
+accelerate>=0.33

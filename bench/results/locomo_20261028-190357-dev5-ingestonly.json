@@ -1,0 +1,801 @@
+[
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "What did Caroline research?",
+  "answer": "Caroline researched adoption agencies to have a family.",
+  "gold": "Adoption agencies",
+  "snippets": [
+   "[2023-05-25] (Caroline) Caroline is researching adoption agencies to have a family",
+   "[2023-10-13] (Caroline & Melanie) Caroline advised Melanie to research adoption agencies or lawyers, gather references, financial info and medical checks, and prepare emotionally.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline went to an LGBTQ support group on 2023-05-07.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline found the transgender stories at the LGBTQ support group inspiring."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.2,
+  "question": "What is Caroline's identity?",
+  "answer": "不知道。记忆片段只提到她通过绘画探索自我身份，但没有具体说明她的身份是什么。",
+  "gold": "Transgender woman",
+  "snippets": [
+   "[2023-08-14] (Caroline) Caroline painted a piece titled 'Embracing Identity' about finding comfort and love in being yourself.",
+   "[2023-08-23] (Caroline) Caroline loves creating art and finds painting therapeutic for exploring her identity."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.2,
+  "question": "What is Caroline's relationship status?",
+  "answer": "不知道。",
+  "gold": "Single",
+  "snippets": [
+   "[2023-09-13] (Caroline) Caroline's transition changed her relationships: some close friends kept supporting her but a few could not handle it."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 1.0,
+  "question": "Where did Caroline move from 4 years ago?",
+  "answer": "不知道。记忆片段只提到 Caroline 四年前从她的祖国搬来，没有说明具体是哪个国家。",
+  "gold": "Sweden",
+  "snippets": [
+   "[2019-06-09 · said 2023-06-09] (Caroline) Caroline moved from her home country 4 years ago.",
+   "[2020-06-09 · said 2023-06-09] (Caroline) Caroline started transitioning three years ago.",
+   "[2019-06-09 · said 2023-06-09] (Caroline) Caroline has known her friends for 4 years, since she moved from her home country.",
+   "[2023-06-27] (Caroline) Caroline owns a hand-painted bowl made by a friend for her 18th birthday ten years ago."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.8,
+  "question": "What career path has Caroline decided to persue?",
+  "answer": "Caroline is considering counseling and mental health as a career path, but the fragments don't say she has definitively ",
+  "gold": "counseling or mental health for Transgender people",
+  "snippets": [
+   "[2023-07-03] (Caroline) Caroline feels motivated to use her story to help others and is still considering counseling and mental health as a career path.",
+   "[2023-05-08] (Caroline) Caroline plans to continue her education and check out career options.",
+   "[2023-06-27] (Caroline) Caroline is looking into counseling and mental health as a career.",
+   "[2023-09-13] (Caroline) Caroline is a trans woman and created a painting to represent her path and authentic self."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 1,
+  "score": 0.6,
+  "question": "What activities does Melanie partake in?",
+  "answer": "Melanie enjoys pottery, painting, hiking, camping, roadtrips, and exploring nature with her family.",
+  "gold": "pottery, camping, painting, swimming",
+  "snippets": [
+   "[2023-07-15] (Melanie) Melanie's hobbies and activities include pottery, painting, hiking, camping, and exploring nature with her family.",
+   "[2023-10-20] (Melanie) Melanie's hobbies and activities include roadtrips, camping with her family, bonding over campfires and stories, and enjoying nature.",
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her.",
+   "[2023-05-08] (Melanie) Melanie finds painting a fun way to express feelings, get creative, and relax after a long day."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Caroline go to the LGBTQ support group?",
+  "answer": "Caroline went to the LGBTQ support group on 2023-05-07.",
+  "gold": "7 May 2023",
+  "snippets": [
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline went to an LGBTQ support group on 2023-05-07.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline found the transgender stories at the LGBTQ support group inspiring.",
+   "[2023-05-08] (Caroline) The LGBTQ support group has made Caroline feel accepted and given her courage to embrace herself.",
+   "[2023-07-11 · said 2023-07-20] (Caroline) Caroline joined a new LGBTQ activist group last Tuesday."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Melanie paint a sunrise?",
+  "answer": "Melanie painted a lake sunrise last year (2022).",
+  "gold": "2022",
+  "snippets": [
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her.",
+   "[2023-05-08] (Melanie) Melanie finds painting a fun way to express feelings, get creative, and relax after a long day.",
+   "[2023-07-08 · said 2023-07-15] (Melanie) Melanie and her kids love painting nature-inspired pictures together and painted one last weekend.",
+   "[2023-07-15] (Melanie) Melanie's hobbies and activities include pottery, painting, hiking, camping, and exploring nature with her family."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.6,
+  "question": "When did Melanie run a charity race?",
+  "answer": "Melanie ran a charity race for mental health last Saturday (2023-05-20).",
+  "gold": "The sunday before 25 May 2023",
+  "snippets": [
+   "[2023-05-20 · said 2023-05-25] (Melanie) Melanie ran a charity race for mental health last Saturday",
+   "[2023-07-12] (Melanie) Melanie recently got new purple running shoes.",
+   "[2023-07-12] (Melanie) Melanie has been running longer distances to de-stress and improve her mental health.",
+   "[2023-05-25] (Melanie) Melanie is carving out daily me-time for running, reading, or playing violin to support self-care"
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.8,
+  "question": "When is Melanie planning on going camping?",
+  "answer": "Melanie was thinking about going camping with her kids next month (as of 2023-06-01).",
+  "gold": "June 2023",
+  "snippets": [
+   "[2023-06-01 · said 2023-05-25] (Melanie) Melanie is thinking about going camping with her kids next month",
+   "[2023-07-20] (Melanie) Melanie's family always looks forward to their annual family camping trip.",
+   "[2023-05-08] (Melanie) Melanie is going swimming with her kids.",
+   "[2023-06-20 · said 2023-06-27] (Melanie) Melanie took her family camping in the mountains last week."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Caroline give a speech at a school?",
+  "answer": "Caroline spoke at a school event last week, as mentioned on 2023-06-09.",
+  "gold": "The week before 9 June 2023",
+  "snippets": [
+   "[2023-06-02 · said 2023-06-09] (Caroline) Caroline spoke about her transgender journey at a school event last week.",
+   "[2023-06-02 · said 2023-06-09] (Caroline) Caroline encouraged students to get involved in the LGBTQ community at her school event.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline went to an LGBTQ support group on 2023-05-07.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline found the transgender stories at the LGBTQ support group inspiring."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 2,
+  "score": 0.4,
+  "question": "When did Caroline meet up with her friends, family, and ment",
+  "answer": "根据记忆片段，Caroline 在 2023-06-29 那一周与朋友和家人一起野餐（该信息于 2023-07-06 提及）。片段中没有提到她与导师见面的时间。",
+  "gold": "The week before 9 June 2023",
+  "snippets": [
+   "[2023-06-09] (Caroline) Caroline's friends, family, and mentors motivate her and give her strength.",
+   "[2023-05-25] (Caroline) Caroline feels grateful for support from friends and mentors in her adoption journey",
+   "[2023-07-06] (Caroline) Caroline's friends and family have been supporting her transition with love, guidance, and acceptance.",
+   "[2023-06-29 · said 2023-07-06] (Caroline) Caroline had a picnic with friends and family last week."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 0.8,
+  "question": "What fields would Caroline be likely to pursue in her educat",
+  "answer": "根据记忆片段，Caroline 受到自身经历和所获支持的激励，想从事心理咨询（counseling）方面的工作。",
+  "gold": "Psychology, counseling certification",
+  "snippets": [
+   "[2023-06-27] (Caroline) Caroline was motivated to pursue counseling by her own journey and the support she received.",
+   "[2023-08-23] (Caroline) Caroline used to go horseback riding with her dad through fields as a child.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline went to an LGBTQ support group on 2023-05-07.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline found the transgender stories at the LGBTQ support group inspiring."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline still want to pursue counseling as a career i",
+  "answer": "不知道。记忆片段只说明 Caroline 因自身经历和所获支持而想从事心理咨询，但没有提及如果她未曾获得支持是否仍会选择这一职业。",
+  "gold": "Likely no",
+  "snippets": [
+   "[2023-06-27] (Caroline) Caroline was motivated to pursue counseling by her own journey and the support she received.",
+   "[2023-07-03] (Caroline) Caroline feels motivated to use her story to help others and is still considering counseling and mental health as a career path.",
+   "[2023-10-22] (Caroline) Caroline wants to pass the same support Caroline received to anyone who needs it.",
+   "[2023-05-08] (Caroline) Caroline is interested in counseling or working in mental health to support people with similar issues."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 0.8,
+  "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+  "answer": "是的，Caroline 热爱阅读，所以很可能会有 Dr. Seuss 的书。",
+  "gold": "Yes, since she collects classic children's books",
+  "snippets": [
+   "[2023-07-12] (Caroline) Caroline loves reading because books guide, motivate, and help Caroline discover herself.",
+   "[2023-08-25] (Caroline) Caroline's hobbies include painting, drawing flowers, and making stained glass.",
+   "[2023-10-13] (Caroline) Caroline is ready to become a mother through adoption and provide a safe, loving home for children.",
+   "[2023-10-13] (Caroline) Caroline drew an artwork standing for freedom and staying true to herself and embracing her womanhood."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Caroline pursue writing as a career option?",
+  "answer": "不知道。记忆片段只提到Caroline计划继续深造并了解职业选择，没有说明她是否会以写作为职业。",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "snippets": [
+   "[2023-05-08] (Caroline) Caroline plans to continue her education and check out career options.",
+   "[2023-05-25] (Caroline) Caroline is researching adoption agencies to have a family",
+   "[2023-05-25] (Caroline) Caroline chose an adoption agency because it helps LGBTQ+ folks with adoption",
+   "[2023-05-25] (Caroline) Caroline is pursuing adoption as a single parent"
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Melanie be considered a member of the LGBTQ community?",
+  "answer": "不知道。",
+  "gold": "Likely no, she does not refer to herself as part of it",
+  "snippets": [
+   "[2023-06-02 · said 2023-06-09] (Caroline) Caroline encouraged students to get involved in the LGBTQ community at her school event.",
+   "[2023-09-13] (Caroline) Caroline volunteers for the LGBTQ+ community and finds it inspiring to make a difference.",
+   "[2023-07-20] (Caroline) Caroline is a member of the group 'Connected LGBTQ Activists'.",
+   "[2023-08-14] (Caroline) Caroline uses her art to speak up for the LGBTQ+ community and push for acceptance."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 3,
+  "score": 1.0,
+  "question": "Would Melanie be more interested in going to a national park",
+  "answer": "根据记忆片段，Melanie 喜欢带孩子们去游泳、露营和公园，还画过湖上日出，因此她可能对 national park 更感兴趣。",
+  "gold": "National park; she likes the outdoors",
+  "snippets": [
+   "[2023-05-08] (Melanie) Melanie is going swimming with her kids.",
+   "[2023-06-01 · said 2023-05-25] (Melanie) Melanie is thinking about going camping with her kids next month",
+   "[2023-08-27 · said 2023-08-28] (Melanie) Melanie took her kids to a park yesterday.",
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What did the charity race raise awareness for?",
+  "answer": "Mental health.",
+  "gold": "mental health",
+  "snippets": [
+   "[2023-05-20 · said 2023-05-25] (Melanie) Melanie ran a charity race for mental health last Saturday",
+   "[2023-05-08] (Caroline) The LGBTQ support group has made Caroline feel accepted and given her courage to embrace herself.",
+   "[2023-07-12] (Caroline) Caroline wants to fight for trans rights and spread awareness."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 0.2,
+  "question": "What did Melanie realize after the charity race?",
+  "answer": "不知道。",
+  "gold": "self-care is important",
+  "snippets": [
+   "[2023-05-20 · said 2023-05-25] (Melanie) Melanie ran a charity race for mental health last Saturday",
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her.",
+   "[2023-05-08] (Melanie) Melanie finds painting a fun way to express feelings, get creative, and relax after a long day.",
+   "[2023-05-08] (Melanie) Melanie is going swimming with her kids."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "How does Melanie prioritize self-care?",
+  "answer": "Melanie carves out daily me-time for running, reading, or playing violin to support self-care.",
+  "gold": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+  "snippets": [
+   "[2023-05-25] (Melanie) Melanie is carving out daily me-time for running, reading, or playing violin to support self-care",
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her.",
+   "[2023-05-08] (Melanie) Melanie finds painting a fun way to express feelings, get creative, and relax after a long day.",
+   "[2023-05-08] (Melanie) Melanie is going swimming with her kids."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 0.2,
+  "question": "What are Caroline's plans for the summer?",
+  "answer": "Caroline plans to continue her education and check out career options.",
+  "gold": "researching adoption agencies",
+  "snippets": [
+   "[2023-08-28] (Melanie) Melanie attended a live show featuring the band 'Summer Sounds'.",
+   "[2023-05-08] (Caroline) Caroline plans to continue her education and check out career options.",
+   "[2023-05-25] (Melanie) Melanie's kids are excited about summer break",
+   "[2023-07-20] (Caroline) The 'Connected LGBTQ Activists' group holds regular meetings and plans events and campaigns."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "What type of individuals does the adoption agency Caroline i",
+  "answer": "The adoption agency Caroline chose helps LGBTQ+ folks with adoption.",
+  "gold": "LGBTQ+ individuals",
+  "snippets": [
+   "[2023-05-25] (Caroline) Caroline chose an adoption agency because it helps LGBTQ+ folks with adoption",
+   "[2023-05-25] (Caroline) Caroline feels grateful for support from friends and mentors in her adoption journey",
+   "[2023-10-20 · said 2023-10-22] (Caroline) Caroline passed the adoption agency interviews last Friday.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline went to an LGBTQ support group on 2023-05-07."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 4,
+  "score": 1.0,
+  "question": "Why did Caroline choose the adoption agency?",
+  "answer": "Caroline chose the adoption agency because it helps LGBTQ+ folks with adoption.",
+  "gold": "because of their inclusivity and support for LGBTQ+ individuals",
+  "snippets": [
+   "[2023-05-25] (Caroline) Caroline chose an adoption agency because it helps LGBTQ+ folks with adoption",
+   "[2023-10-20 · said 2023-10-22] (Caroline) Caroline passed the adoption agency interviews last Friday.",
+   "[2023-05-25] (Caroline) Caroline is researching adoption agencies to have a family",
+   "[2023-05-25] (Caroline) Caroline is pursuing adoption as a single parent"
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 1.0,
+  "question": "What did Caroline realize after her charity race?",
+  "answer": "不知道。",
+  "gold": "self-care is important",
+  "snippets": [
+   "[2023-05-08] (Caroline) The LGBTQ support group has made Caroline feel accepted and given her courage to embrace herself.",
+   "[2023-07-15] (Caroline) Caroline realized she can be herself without fear and having the courage to transition was the best part of the pride parade.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline went to an LGBTQ support group on 2023-05-07.",
+   "[2023-05-07 · said 2023-05-08] (Caroline) Caroline found the transgender stories at the LGBTQ support group inspiring."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What are Melanie's plans for the summer with respect to adop",
+  "answer": "不知道。记忆片段中没有提到 Melanie 有收养相关的计划。",
+  "gold": "researching adoption agencies",
+  "snippets": [
+   "[2023-05-25] (Melanie) Melanie's kids are excited about summer break",
+   "[2023-08-28] (Melanie) Melanie attended a live show featuring the band 'Summer Sounds'.",
+   "[2023-05-08] (Caroline) Caroline plans to continue her education and check out career options.",
+   "[2023-05-25] (Caroline) Caroline is researching adoption agencies to have a family"
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What type of individuals does the adoption agency Melanie is",
+  "answer": "不知道。",
+  "gold": "LGBTQ+ individuals",
+  "snippets": [
+   "[2023-05-25] (Melanie) Melanie is carving out daily me-time for running, reading, or playing violin to support self-care",
+   "[2023-07-15] (Melanie) Melanie's family helped her during her move and showed love and support.",
+   "[2023-08-17] (Caroline & Melanie) Caroline and Melanie value and appreciate their friendship and support each other.",
+   "[2023-08-25] (Melanie) Melanie's favorite art types are painting landscapes and still life."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "Why did Melanie choose the adoption agency?",
+  "answer": "不知道。",
+  "gold": "because of their inclusivity and support for LGBTQ+ individuals",
+  "snippets": [
+   "[2023-10-13] (Caroline & Melanie) Caroline advised Melanie to research adoption agencies or lawyers, gather references, financial info and medical checks, and prepare emotionally.",
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her.",
+   "[2023-05-08] (Melanie) Melanie finds painting a fun way to express feelings, get creative, and relax after a long day.",
+   "[2023-05-08] (Melanie) Melanie is going swimming with her kids."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What is Melanie excited about in her adoption process?",
+  "answer": "不知道。",
+  "gold": "creating a family for kids who need one",
+  "snippets": [
+   "[2023-05-25] (Melanie) Melanie's kids are excited about summer break",
+   "[2023-07-05 · said 2023-07-06] (Melanie) Melanie's kids were excited about the dinosaur exhibit at the museum.",
+   "[2023-10-13] (Caroline & Melanie) Caroline advised Melanie to research adoption agencies or lawyers, gather references, financial info and medical checks, and prepare emotionally.",
+   "[2022-12-31 · said 2023-05-08] (Melanie) Melanie painted a lake sunrise last year that is special to her."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-26",
+  "category": 5,
+  "score": 0.2,
+  "question": "What does Melanie's necklace symbolize?",
+  "answer": "不知道。",
+  "gold": "love, faith, and strength",
+  "snippets": [
+   "[2023-06-27] (Caroline) Caroline owns a necklace given to her by her grandma in Sweden that symbolizes love, faith and strength."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.6,
+  "question": "What do Jon and Gina both have in common?",
+  "answer": "Jon和Gina都支持彼此的创业之路。",
+  "gold": "They lost their jobs and decided to start their own businesses.",
+  "snippets": [
+   "[2023-01-27 · said 2023-01-20] (Jon & Gina) Jon and Gina plan to attend a dance session next Friday.",
+   "[2023-02-01] (Jon & Gina) Jon supports Gina's store efforts, and Gina encourages Jon to keep going and stay positive about his dance studio.",
+   "[2023-02-04] (Gina & Jon) Gina offers Jon her full support and encouragement for his business and dance goals.",
+   "[2023-03-16] (Gina & Jon) Gina and Jon support each other in their entrepreneurial journeys."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 1.0,
+  "question": "What Jon thinks the ideal dance studio should look like?",
+  "answer": "不知道。记忆片段只提到Jon在寻找舞蹈工作室的理想地点，没有说明他认为理想的工作室应该是什么样子。",
+  "gold": "By the water, with natural light and Marley flooring",
+  "snippets": [
+   "[2023-04-03] (Jon) Jon is expanding his dance studio's social media presence.",
+   "[2023-04-03] (Jon) Jon is hosting a dance competition next month to showcase local talent.",
+   "[2023-01-29] (Jon) Jon is searching for an ideal location for his dance studio.",
+   "[2023-05-11] (Jon) Jon is working on opening his own dance studio and feels things are looking up."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.2,
+  "question": "Which city have both Jean and John visited?",
+  "answer": "不知道。",
+  "gold": "Rome",
+  "snippets": [
+   "[2023-01-28 · said 2023-01-29] (Jon) Jon visited Paris yesterday.",
+   "[2023-01-29] (Gina) Gina has never visited Paris and has only been to Rome once."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.8,
+  "question": "Why did Gina decide to start her own clothing store?",
+  "answer": "Gina started her online clothing store after losing her job, to take control of her own destiny.",
+  "gold": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+  "snippets": [
+   "[2023-01-29] (Gina) Gina started her own clothing store and finds taking risks both scary and rewarding.",
+   "[2023-04-25] (Gina) Gina started her own online clothing store not so long ago.",
+   "[2023-04-25] (Gina) Gina started her online clothing store after losing her job to take control of her own destiny.",
+   "[2023-01-29] (Gina) Gina just launched an ad campaign for her clothing store to grow the business."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 1.0,
+  "question": "Do Jon and Gina start businesses out of what they love?",
+  "answer": "是的，Jon 经营舞蹈工作室，Gina 经营店铺，两人都从自己热爱的事情出发。",
+  "gold": "Yes",
+  "snippets": [
+   "[2023-04-09] (Jon & Gina) Jon and Gina share a love for dance as a way to express themselves and find happiness.",
+   "[2023-01-27 · said 2023-01-20] (Jon & Gina) Jon and Gina plan to attend a dance session next Friday.",
+   "[2023-02-01] (Jon & Gina) Jon supports Gina's store efforts, and Gina encourages Jon to keep going and stay positive about his dance studio.",
+   "[2023-02-04] (Gina & Jon) Gina offers Jon her full support and encouragement for his business and dance goals."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 1,
+  "score": 0.4,
+  "question": "How did Gina promote her clothes store?",
+  "answer": "Gina launched an ad campaign and offered new promotions to attract customers.",
+  "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video pr",
+  "snippets": [
+   "[2023-03-16] (Gina) Gina opened an online clothes store.",
+   "[2023-03-16] (Gina) Gina combined her love for dance and fashion to start her online clothes store.",
+   "[2023-04-03] (Gina) Gina runs an online store and is offering new promotions to attract customers.",
+   "[2023-01-29] (Gina) Gina just launched an ad campaign for her clothing store to grow the business."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When Jon has lost his job as a banker?",
+  "answer": "2023年1月18日（记忆片段中于2023-01-19提到“昨天”失去银行家工作）。",
+  "gold": "19 January, 2023",
+  "snippets": [
+   "[2023-01-19 · said 2023-01-20] (Jon) Jon lost his job as a banker yesterday.",
+   "[2023-02-08] (Jon) Jon left his secure 9-5 job as a banker to pursue his dancing passion as a business.",
+   "[2023-03-16] (Jon) Jon lost his job and is now starting his own business.",
+   "[2023-04-09] (Jon) Jon lost his job, which motivated him to pursue his passion for dance."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When Gina has lost her job at Door Dash?",
+  "answer": "2023年1月。",
+  "gold": "January, 2023",
+  "snippets": [
+   "[2023-01-20] (Gina) Gina lost her job at Door Dash this month.",
+   "[2023-03-16] (Gina) Gina lost her job at Door Dash.",
+   "[2023-06-16] (Gina) Gina lost her job and opened an online clothing store, becoming her own boss.",
+   "[2023-04-25] (Gina) Gina started her online clothing store after losing her job to take control of her own destiny."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 0.8,
+  "question": "When is Jon's group performing at a festival?",
+  "answer": "Jon's group is performing at a nearby festival next month, as mentioned on 2023-02-01.",
+  "gold": "February, 2023",
+  "snippets": [
+   "[2023-02-01 · said 2023-01-20] (Jon) Jon's group is finishing choreography to perform at a nearby festival next month.",
+   "[2023-01-20] (Jon) Jon rehearsed with a small group of dancers after work.",
+   "[2023-02-08] (Jon) Jon performed at a festival and received compliments on his dance moves.",
+   "[2023-06-16] (Jon) Jon is chasing his dream of performing and dancing."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Gina launch an ad campaign for her store?",
+  "answer": "Gina launched an ad campaign for her clothing store on 2023-01-29.",
+  "gold": "29 January, 2023",
+  "snippets": [
+   "[2023-01-29] (Gina) Gina just launched an ad campaign for her clothing store to grow the business.",
+   "[2023-04-03] (Gina) Gina combines her passions for dance and fashion by adding dance-inspired items to her store.",
+   "[2023-04-03] (Gina) Gina runs an online store and is offering new promotions to attract customers.",
+   "[2023-01-29] (Gina) Gina started her own clothing store and finds taking risks both scary and rewarding."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When was Jon in Paris?",
+  "answer": "Jon was in Paris on 2023-01-28.",
+  "gold": "28 January 2023",
+  "snippets": [
+   "[2023-01-28 · said 2023-01-29] (Jon) Jon visited Paris yesterday.",
+   "[2023-01-19 · said 2023-01-20] (Jon) Jon lost his job as a banker yesterday.",
+   "[2023-01-20] (Jon) Jon plans to start his own dance studio.",
+   "[2023-01-20] (Jon) Jon has been passionate about dancing since he was a kid."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 2,
+  "score": 1.0,
+  "question": "When did Gina team up with a local artist for some cool desi",
+  "answer": "2023年2月8日。",
+  "gold": "February, 2023",
+  "snippets": [
+   "[2023-02-08] (Gina) Gina has been working hard on her online store and teamed up with a local artist for cool designs.",
+   "[2023-02-08] (Gina) Gina got the idea for her store designs from a fashion magazine and worked with an artist to create them.",
+   "[2023-01-20] (Gina) Gina's team won first place at a regional dance competition when Gina was fifteen.",
+   "[2023-02-01] (Gina) Gina aims to create a special shopping experience so customers feel like they're in a cool oasis and want to come back."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 0.2,
+  "question": "How do Jon and Gina both like to destress?",
+  "answer": "不知道",
+  "gold": "by dancing",
+  "snippets": [
+   "[2023-01-27 · said 2023-01-20] (Jon & Gina) Jon and Gina plan to attend a dance session next Friday.",
+   "[2023-02-01] (Jon & Gina) Jon supports Gina's store efforts, and Gina encourages Jon to keep going and stay positive about his dance studio.",
+   "[2023-02-04] (Gina & Jon) Gina offers Jon her full support and encouragement for his business and dance goals.",
+   "[2023-03-16] (Gina & Jon) Gina and Jon support each other in their entrepreneurial journeys."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "Why did Jon decide to start his dance studio?",
+  "answer": "Jon lost his job, which pushed him to finally start his dream business: his own dance studio.",
+  "gold": "He lost his job and decided to start his own business to share his passion.",
+  "snippets": [
+   "[2023-04-03] (Jon) Jon is expanding his dance studio's social media presence.",
+   "[2023-01-20] (Jon) Jon plans to start his own dance studio.",
+   "[2023-05-11] (Jon) Jon lost his job, which pushed Jon to finally start his dream business: his own dance studio.",
+   "[2023-04-03] (Jon) Jon is hosting a dance competition next month to showcase local talent."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What is Gina's favorite style of dance?",
+  "answer": "Contemporary.",
+  "gold": "Contemporary",
+  "snippets": [
+   "[2023-01-20] (Gina) Gina's favorite dance style is contemporary.",
+   "[2023-01-20] (Jon) Jon's favorite dance style is contemporary.",
+   "[2023-01-20] (Gina) Gina's team won first place at a regional dance competition when Gina was fifteen.",
+   "[2023-02-01] (Jon & Gina) Jon supports Gina's store efforts, and Gina encourages Jon to keep going and stay positive about his dance studio."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What is Jon's favorite style of dance?",
+  "answer": "Jon's favorite dance style is contemporary.",
+  "gold": "Contemporary",
+  "snippets": [
+   "[2023-01-20] (Jon) Jon's favorite dance style is contemporary.",
+   "[2023-04-03] (Jon) Jon is expanding his dance studio's social media presence.",
+   "[2023-04-03] (Jon) Jon is hosting a dance competition next month to showcase local talent.",
+   "[2023-01-20] (Gina) Gina's favorite dance style is contemporary."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What was Gina's favorite dancing memory?",
+  "answer": "Gina's favorite dancing memory is winning first place at a regionals at age fifteen.",
+  "gold": "Winning first place at a regionals dance competition",
+  "snippets": [
+   "[2023-01-20] (Gina & Jon) Gina's favorite dance style is contemporary.",
+   "[2023-01-20] (Gina & Jon) Gina used to compete in dance competitions and shows, and her favorite memory is winning first place at a regionals at age fifteen.",
+   "[2023-01-20] (Jon & Gina) Jon plans to start a dance studio to share his passion for dancing with others.",
+   "[2023-01-20] (Jon & Gina) Jon has been passionate about dancing since he was a kid."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 4,
+  "score": 1.0,
+  "question": "What kind of dance piece did Gina's team perform to win firs",
+  "answer": "不知道。记忆片段只提到 Gina 十五岁时在地区赛获得第一名，但没有说明当时表演的是什么类型的舞蹈作品。",
+  "gold": "\"Finding Freedom\"",
+  "snippets": [
+   "[2023-01-20] (Gina & Jon) Gina's team performed a contemporary piece called 'Finding Freedom' at the competition.",
+   "[2023-01-20] (Gina & Jon) Gina used to compete in dance competitions and shows, and her favorite memory is winning first place at a regionals at age fifteen.",
+   "[2023-02-01] (Jon) Jon is following his passion for dance.",
+   "[2023-02-01] (Jon) Jon is still searching for a place to open his dance studio."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 1.0,
+  "question": "What temporary job did Jon take to cover expenses?",
+  "answer": "不知道。记忆片段只提到Jon找了一份临时工作来补贴开销，但没有说明具体是什么工作。",
+  "gold": "Not mentioned",
+  "snippets": [
+   "[2023-07-21] (Jon) Jon got a temp job to help cover expenses while looking for investors.",
+   "[2023-01-19 · said 2023-01-20] (Jon & Gina) Jon lost his job as a banker yesterday and plans to start his own business.",
+   "[2023-01-20] (Jon & Gina) Jon's favorite dance style is contemporary.",
+   "[2023-01-20] (Jon & Gina) Jon rehearses with a small group of dancers after work, doing contemporary to hip-hop."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What is Jon's favorite style of painting?",
+  "answer": "不知道。",
+  "gold": "Contemporary",
+  "snippets": [
+   "[2023-01-20] (Jon & Gina) Jon's favorite dance style is contemporary.",
+   "[2023-01-20] (Gina & Jon) Gina's favorite dance style is contemporary.",
+   "[2023-01-20] (Gina & Jon) Gina used to compete in dance competitions and shows, and her favorite memory is winning first place at a regionals at age fifteen.",
+   "[2023-02-01] (Gina) Gina chose a chandelier to add glam feel and match the store's style."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What was Jon's favorite dancing memory?",
+  "answer": "不知道",
+  "gold": "Winning first place at a regionals dance competition",
+  "snippets": [
+   "[2023-01-20] (Jon & Gina) Jon's favorite dance style is contemporary.",
+   "[2023-01-20] (Gina & Jon) Gina used to compete in dance competitions and shows, and her favorite memory is winning first place at a regionals at age fifteen.",
+   "[2023-01-20] (Jon & Gina) Jon plans to start a dance studio to share his passion for dancing with others.",
+   "[2023-01-20] (Jon & Gina) Jon has been passionate about dancing since he was a kid."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What kind of dance piece did Jon's team perform to win first",
+  "answer": "不知道。",
+  "gold": "\"Finding Freedom\"",
+  "snippets": [
+   "[2022-01-20 · said 2023-01-20] (Jon & Gina) Jon's dance crew won first place at a local competition last year.",
+   "[2023-01-20] (Gina & Jon) Gina used to compete in dance competitions and shows, and her favorite memory is winning first place at a regionals at age fifteen.",
+   "[2023-02-01] (Jon & Gina) Gina supports Jon's efforts with his dance studio.",
+   "[2023-04-09] (Gina & Jon) Gina supports Jon's dance studio and his efforts."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What is Gina's attitude towards participating in the dance f",
+  "answer": "不知道",
+  "gold": "Glad",
+  "snippets": [
+   "[2023-01-20] (Gina & Jon) Gina's favorite dance style is contemporary.",
+   "[2023-02-01] (Jon) Jon is following his passion for dance.",
+   "[2023-02-01] (Jon) Jon is still searching for a place to open his dance studio.",
+   "[2023-02-01] (Jon & Gina) Gina supports Jon's efforts with his dance studio."
+  ]
+ },
+ {
+  "system": "dshmem",
+  "sample_id": "conv-30",
+  "category": 5,
+  "score": 0.2,
+  "question": "What kind of flooring is Gina looking for in her dance studi",
+  "answer": "不知道。",
+  "gold": "Marley flooring",
+  "snippets": [
+   "[2023-02-01] (Jon & Gina) Gina supports Jon's efforts with his dance studio.",
+   "[2023-04-09] (Gina & Jon) Gina supports Jon's dance studio and his efforts.",
+   "[2023-03-23] (Gina & Jon) Gina supports Jon in staying motivated with his dance studio business.",
+   "[2023-04-09] (Gina) Gina used to love spending time in the dance studio."
+  ]
+ }
+]

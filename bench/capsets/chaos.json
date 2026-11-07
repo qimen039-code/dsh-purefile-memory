@@ -1,0 +1,73 @@
+[
+ {
+  "sample_id": "cap-chaos-1",
+  "conversation": {
+   "session_1_date_time": "2:15 pm on 3 April, 2023",
+   "session_1": "[{\"speaker\": \"Zorblatt\", \"text\": \"The quixnorian festival starts nexula. I will wear my tramelda cloak.\"}, {\"speaker\": \"Vexwold\", \"text\": \"Amazing! Last time the festival had a plimworth contest, right?\"}, {\"speaker\": \"Zorblatt\", \"text\": \"Yes! I won third place with my gronzik soup. The judge was Hesperion.\"}, {\"speaker\": \"Vexwold\", \"text\": \"My snorbette broke during the dance. I was so upset.\"}, {\"speaker\": \"Zorblatt\", \"text\": \"You should ask Quellmira to fix it. She repaired my uncle's snorbette once.\"}]",
+   "session_2_date_time": "5:40 pm on 19 April, 2023",
+   "session_2": "[{\"speaker\": \"Vexwold\", \"text\": \"Quellmira fixed my snorbette in two days! She is a genius.\"}, {\"speaker\": \"Zorblatt\", \"text\": \"Great! Did you hear Hesperion retired from judging?\"}, {\"speaker\": \"Vexwold\", \"text\": \"Really? Who judges the plimworth contest now?\"}, {\"speaker\": \"Zorblatt\", \"text\": \"Draventhil. He is much stricter, gives lower scores.\"}, {\"speaker\": \"Vexwold\", \"text\": \"Then I will not enter this year. I will just sell glimble cakes instead.\"}]"
+  },
+  "qa": [
+   {
+    "question": "Who won third place in the plimworth contest?",
+    "answer": "Zorblatt",
+    "category": 1
+   },
+   {
+    "question": "Who fixed Vexwold's snorbette?",
+    "answer": "Quellmira",
+    "category": 1
+   },
+   {
+    "question": "Who is the new judge of the plimworth contest?",
+    "answer": "Draventhil",
+    "category": 1
+   },
+   {
+    "question": "What did Vexwold decide to sell instead of entering the contest?",
+    "answer": "glimble cakes",
+    "category": 1
+   },
+   {
+    "question": "When did the second conversation happen?",
+    "answer": "19 April 2023",
+    "category": 2
+   },
+   {
+    "question": "Who repaired Zorblatt's uncle's snorbette?",
+    "answer": "Quellmira",
+    "category": 3
+   },
+   {
+    "question": "What color is Zorblatt's tramelda cloak?",
+    "answer": "unknown",
+    "category": 5
+   },
+   {
+    "question": "Where is the quixnorian festival held?",
+    "answer": "unknown",
+    "category": 5
+   },
+   {
+    "question": "How many years has Vexwold danced?",
+    "answer": "unknown",
+    "category": 5
+   },
+   {
+    "question": "Did Zorblatt ever meet Draventhil in person?",
+    "answer": "unknown",
+    "category": 5
+   },
+   {
+    "question": "What ingredients are in gronzik soup?",
+    "answer": "unknown",
+    "category": 5
+   },
+   {
+    "question": "Why did Hesperion retire?",
+    "answer": "unknown",
+    "category": 5
+   }
+  ]
+ }
+]

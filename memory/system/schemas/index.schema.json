@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dsh.local/memory/index.schema.json",
+  "title": "DSH memory record L2 index",
+  "type": "object",
+  "required": ["schema", "record_id", "categories"],
+  "properties": {
+    "schema": { "type": "integer", "const": 1 },
+    "record_id": { "type": "string", "pattern": "^rec-[0-9]{8}-[0-9]{6}-[0-9a-f]{4}$" },
+    "generated_at": { "type": "string" },
+    "categories": {
+      "type": "object",
+      "required": ["sessions", "artifacts", "sources", "logs", "decisions", "related_records", "claims", "notes"],
+      "properties": {
+        "sessions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["session_id"],
+            "properties": {
+              "session_id": { "type": "string" },
+              "workspace": { "type": "string" },
+              "turns": { "type": "array", "items": { "type": "integer" } },
+              "path": { "type": "string" },
+              "summary": { "type": "string" }
+            }
+          }
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "properties": {
+              "path": { "type": "string" },
+              "kind": { "type": "string" },
+              "bytes": { "type": "integer" },
+              "sha256": { "type": "string" },
+              "summary": { "type": "string" },
+              "copied_to": { "type": "string" }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["url"],
+            "properties": {
+              "url": { "type": "string" },
+              "title": { "type": "string" },
+              "accessed_at": { "type": "string" },
+              "quote": { "type": "string" },
+              "snapshot_path": { "type": "string" }
+            }
+          }
+        },
+        "logs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "properties": {
+              "path": { "type": "string" },
+              "summary": { "type": "string" },
+              "captured_at": { "type": "string" }
+            }
+          }
+        },
+        "decisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["summary"],
+            "properties": {
+              "id": { "type": "string" },
+              "path": { "type": "string" },
+              "summary": { "type": "string" }
+            }
+          }
+        },
+        "related_records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id"],
+            "properties": {
+              "id": { "type": "string" },
+              "relation": { "type": "string" },
+              "why": { "type": "string" }
+            }
+          }
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id"],
+            "properties": {
+              "id": { "type": "string" },
+              "statement": { "type": "string" }
+            }
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "properties": {
+              "path": { "type": "string" },
+              "summary": { "type": "string" },
+              "captured_at": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "locators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "ref"],
+        "properties": {
+          "kind": { "enum": ["session", "file", "url", "claim"] },
+          "ref": { "type": "string" },
+          "path": { "type": "string" },
+          "lines": { "type": "array", "items": { "type": "integer" } },
+          "seq": { "type": "array", "items": { "type": "integer" } },
+          "anchor": { "type": "string" }
+        }
+      }
+    }
+  }
+}
